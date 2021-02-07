@@ -42,7 +42,7 @@ functionName();
 All of the code between the curly braces will be executed every time the function is called. This can vary from a one-line code to a ten-line code.
 
 ### Scope
-Scope is a set of rules that determines where within a program you can access declared variables. Scope is not limited to variables but in most cases, you think of a variable when talking about scopes. Scope refers to the visibility of variables.
+A scope is a set of rules that determines where within a program you can access declared variables. Scopes are not limited to variables but in most cases, you think of a variable when talking about scopes. Scope refers to the visibility of variables.
 
 I’d be explaining two types of scope which are local and global.
 
@@ -64,7 +64,7 @@ It is also possible to have both local and global variables with the same name. 
 
 ## Conclusion
 
-An easy way to understand this concept is to know that a variable is in scope in between the closest curly braces {}. Keep in mind that the variable will stay in scope as long as any scope it exists in still exists. If I declare a variable in an outer scope and modify a variable in an inner scope, that variable will survive as long as the outer scope does. It matters where the variable is declared.
+An easy way to understand this concept is to know that a variable is in scope in between the closest curly braces {}. Keep in mind that the variable will stay in scope as long as the outer scope still exists. A variable declared in an outer scope and modified in an inner scope will survive as long as the outer scope does. It, therefore, matters where the variable is declared.
  
  
 
